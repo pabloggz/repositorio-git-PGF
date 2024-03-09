@@ -28,6 +28,11 @@ git add .
 
 git commit -m "Anhadida version 2 del proceso de control de cambios" # Se añade la versión 2 del documento con los cambios implementados. El documento se añade en formato pdf. Además, se añaden en esta versión las plantillas en una carpeta separada.
 
+git switch master # Cambiamos a la rama principal
+
+git merge Mejoras # Fusionamos las dos ramas
+
+git branch -d Mejoras # Borramos la rama mejoras
 
 
 
