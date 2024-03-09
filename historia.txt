@@ -19,3 +19,9 @@ git tag -a R1 -m "Version R1" # Crear la etiqueda de la versión R1
 git branch Mejoras # Crear la rama "Mejoras"
 
 git switch Mejoras # Cambiar a la rama "Mejoras"
+
+git add .
+
+git commit -m "Anhadidas propuestas de mejora del proceso de control de cambios"
+
+
