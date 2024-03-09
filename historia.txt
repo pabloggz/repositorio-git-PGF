@@ -1,0 +1,7 @@
+REPOSITORIO GIT INDIVIDUAL
+
+Pablo García Fuentes
+
+COMANDOS UTILIZADOS:
+
+git init #Creación del repositorio
