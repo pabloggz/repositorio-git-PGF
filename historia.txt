@@ -4,4 +4,8 @@ Pablo García Fuentes
 
 COMANDOS UTILIZADOS:
 
-git init #Creación del repositorio
+git init # Creación del repositorio
+
+git add . # Añadir los cambios al staging area
+
+git commit -m "Anhadida estructura del repositorio y archivo historia.txt" # Añadir los cambios al repositorio local
