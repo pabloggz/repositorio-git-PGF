@@ -34,6 +34,15 @@ git merge Mejoras # Fusionamos las dos ramas
 
 git branch -d Mejoras # Borramos la rama mejoras
 
+git add .
+
+git commit -m "Eliminado documento de propuestas de mejora"
+
+git tag -a R2 -m "Version R2" # Crear la etiqueta de la versión R2
+
+git add .
+
+git commit -m "Anhadida version 3 del documento del proceso de control de cambios"
 
 
 
@@ -45,13 +54,3 @@ git branch -d Mejoras # Borramos la rama mejoras
 
 
 
-
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
