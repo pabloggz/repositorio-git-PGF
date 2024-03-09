@@ -44,10 +44,23 @@ git add .
 
 git commit -m "Anhadida version 3 del documento del proceso de control de cambios"
 
+git reset --hard HEAD^ # Devolvemos el repositorio al estado del commit anterior
 
+git checkout # Actualizamos nuestro espacio de trabajo
 
+git add .
 
+git commit -m "Anhadida version 3 del documento y plantillas"
 
+git tag -a R3 -m "Version R3" # Crear la etiqueta de la versión R3
+
+git remote add origin git@github.com:pabloggz/repositorio-git-PGF.git # Añadimos el repositorio remoto al repositorio local
+
+git push origin master --tags # Hacemos un push al repositorio remoto con la rama principal y las etiquetas
+
+git pull origin master # Añadimos los cambios realizados en el repositorio remoto
+
+git diff historia.txt # Obtenemos las diferencias del archivo historia.txt respecto a la versión del repositorio
 
 
 
