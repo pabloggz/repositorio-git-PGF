@@ -1,8 +1,6 @@
-REPOSITORIO GIT INDIVIDUAL
+	COMANDOS UTILIZADOS REPOSITORIO GIT INDIVIDUAL
 
-Pablo García Fuentes
-
-COMANDOS UTILIZADOS:
+	Pablo García Fuentes
 
 git init # Creación del repositorio
 
@@ -12,7 +10,7 @@ git commit -m "Anhadida estructura del repositorio y archivo historia.txt" # Añ
 
 git add .
 
-git commit -m "Anhadida version inicial de la descripcion del proceso de control de cambios, las plantillas se incluyen en el propio documento pdf que describe el proceso de control de cambios" # Se añade al repositoro la versión inicial de la descripción del proceso del control de cambios en pdf. En esta primera versión las plantillas se incluyen en el mismo pdf
+git commit -m "Anhadida version inicial de la descripcion del proceso de control de cambios, las plantillas se incluyen en el propio documento pdf que describe el proceso de control de cambios" # Se añade al repositorio la versión inicial de la descripción del proceso del control de cambios en pdf. En esta primera versión las plantillas se incluyen en el mismo pdf
 
 git tag -a R1 -m "Version R1" # Crear la etiqueda de la versión R1
 
@@ -26,7 +24,7 @@ git commit -m "Anhadidas propuestas de mejora del proceso de control de cambios"
 
 git add .
 
-git commit -m "Anhadida version 2 del proceso de control de cambios" # Se añade la versión 2 del documento con los cambios implementados. El documento se añade en formato pdf. Además, se añaden en esta versión las plantillas en una carpeta separada.
+git commit -m "Anhadida version 2 del proceso de control de cambios" # Se añade la versión 2 del documento con los cambios implementados. El documento se añade en formato pdf. Además, se añaden en esta versión las plantillas en una carpeta separada
 
 git switch master # Cambiamos a la rama principal
 
@@ -62,7 +60,9 @@ git pull origin master # Añadimos los cambios realizados en el repositorio remo
 
 git diff historia.txt # Obtenemos las diferencias del archivo historia.txt respecto a la versión del repositorio
 
+git add .
 
+git commit -m "Cambios en el documento historia.txt" # Actualizamos el repositorio remoto con los cambios
 
 
 
