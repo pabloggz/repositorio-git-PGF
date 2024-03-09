@@ -9,3 +9,13 @@ git init # Creación del repositorio
 git add . # Añadir los cambios al staging area
 
 git commit -m "Anhadida estructura del repositorio y archivo historia.txt" # Añadir los cambios al repositorio local
+
+git add .
+
+git commit -m "Anhadida version inicial de la descripcion del proceso de control de cambios, las plantillas se incluyen en el propio documento pdf que describe el proceso de control de cambios" # Se añade al repositoro la versión inicial de la descripción del proceso del control de cambios en pdf. En esta primera versión las plantillas se incluyen en el mismo pdf
+
+git tag -a R1 -m "Version R1" # Crear la etiqueda de la versión R1
+
+git branch Mejoras # Crear la rama "Mejoras"
+
+git switch Mejoras # Cambiar a la rama "Mejoras"
